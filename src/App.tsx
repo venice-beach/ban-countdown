@@ -10,13 +10,13 @@ import Countdown from 'react-countdown';
 import {Helmet} from "react-helmet";
 import ReactCanvasConfetti from 'react-canvas-confetti';
 
-const TITLE = "DUKE ED DECISION TIMER"
-const DONE_STRING = "DUKE ED DECISIONS ARE OUT!"
-const UNTLL_STRING = "Until Duke ED decisions are out!"
-const DATE = new Date(Date.UTC(2021, 11, 17, 0, 0, 0, 0))
-const DESCRIPTION = "Bottom friendly countdown for Duke Decision";
+const TITLE = "STANFORD ED DECISION TIMER"
+const DONE_STRING = "STANFORD ED DECISIONS ARE OUT!"
+const UNTLL_STRING = "Until Stanford ED decisions are out!"
+const DATE = new Date(Date.UTC(2021, 12, 16, 0, 0, 0, 0))
+const DESCRIPTION = "Bottom friendly countdown for Stanford Decision";
 const IMAGE = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Duke_Athletics_logo.svg/1200px-Duke_Athletics_logo.svg.png"
-const THEMEC = "blue";
+const THEMEC = "red";
 
 const Completionist = () => <Heading size="4xl">{DONE_STRING}</Heading>;
 
