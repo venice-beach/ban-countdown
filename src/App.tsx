@@ -11,11 +11,11 @@ import {Helmet} from "react-helmet";
 import ReactCanvasConfetti from 'react-canvas-confetti';
 
 const TITLE = "STANFORD ED DECISION TIMER"
-const DONE_STRING = "STANFORD ED DECISIONS ARE OUT!"
-const UNTLL_STRING = "Until Stanford ED decisions are out!"
+const DONE_STRING = "Stanford REA Decisions are Out!"
+const UNTLL_STRING = "Until Stanford REA Decisions are Out!"
 const DATE = new Date(Date.UTC(2021, 11, 16, 0, 0, 0, 0))
 const DESCRIPTION = "Bottom friendly countdown for Stanford Decision";
-const IMAGE = "https://en.wikipedia.org/wiki/Stanford_University#/media/File:Stanford_University_seal_2003.svg"
+const IMAGE = "https://fanapeel.com/wp-content/uploads/logo_-stanford-university-cardinal-tree-over-red-s.png"
 const THEMEC = "red";
 
 const Completionist = () => <Heading size="4xl">{DONE_STRING}</Heading>;
