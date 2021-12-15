@@ -10,7 +10,7 @@ import Countdown from 'react-countdown';
 import {Helmet} from "react-helmet";
 import ReactCanvasConfetti from 'react-canvas-confetti';
 
-const TITLE = "STANFORD ED DECISION TIMER"
+const TITLE = "Stanford REA Decision Timer"
 const DONE_STRING = "Stanford REA Decisions are Out!"
 const UNTLL_STRING = "Until Stanford REA Decisions are Out!"
 const DATE = new Date(Date.UTC(2021, 11, 16, 0, 0, 0, 0))
